@@ -3,8 +3,8 @@
 > **Topics:** `whatsapp-cloud-api` `chatbot` `state-machine` `conversational-ai` `lead-qualification` `meta-api`
 
 
-[![Release](https://img.shields.io/badge/Release-v1.0.0-blue.svg)](https://github.com/MobileConduit/whatsapp-flow-router/releases/tag/v1.0.0)
-[![CI/CD Pipeline](https://github.com/MobileConduit/whatsapp-flow-router/actions/workflows/ci.yml/badge.svg)](https://github.com/MobileConduit/whatsapp-flow-router/actions)
+[![Release](https://img.shields.io/badge/Release-v1.0.0-blue.svg)](https://github.com/shadialhasan/whatsapp-flow-router/releases/tag/v1.0.0)
+[![CI/CD Pipeline](https://github.com/shadialhasan/whatsapp-flow-router/actions/workflows/ci.yml/badge.svg)](https://github.com/shadialhasan/whatsapp-flow-router/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B%20%7C%2020%2B%20%7C%2022%2B-brightgreen.svg)](https://nodejs.org)
 [![Platform: WhatsApp Cloud API](https://img.shields.io/badge/WhatsApp-Cloud%20API-25D366.svg?logo=whatsapp&logoColor=white)](https://developers.facebook.com)
@@ -87,7 +87,7 @@ sequenceDiagram
 
 ```bash
 # Clone the repository
-git clone https://github.com/MobileConduit/whatsapp-flow-router.git
+git clone https://github.com/shadialhasan/whatsapp-flow-router.git
 cd whatsapp-flow-router
 
 # Install dependencies
@@ -141,7 +141,7 @@ npm test
 - **Email:** [mhd.shadi.alhasan@gmail.com](mailto:mhd.shadi.alhasan@gmail.com)  
 - **Phone / WhatsApp:** [+963934005922](tel:+963934005922)  
 - **Location:** Damascus, Syria  
-- **GitHub:** [MobileConduit](https://github.com/MobileConduit)  
+- **GitHub:** [shadialhasan](https://github.com/shadialhasan)  
 
 ---
 
