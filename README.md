@@ -1,5 +1,6 @@
 # 💬 whatsapp-flow-router
 
+[![Release](https://img.shields.io/badge/Release-v1.0.0-blue.svg)](https://github.com/MobileConduit/whatsapp-flow-router/releases/tag/v1.0.0)
 [![CI/CD Pipeline](https://github.com/MobileConduit/whatsapp-flow-router/actions/workflows/ci.yml/badge.svg)](https://github.com/MobileConduit/whatsapp-flow-router/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B%20%7C%2020%2B%20%7C%2022%2B-brightgreen.svg)](https://nodejs.org)
