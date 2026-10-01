@@ -1,0 +1,11 @@
+{
+  "name": "whatsapp-flow-router",
+  "version": "1.0.0",
+  "description": "State-Machine Conversational Flow Router for WhatsApp Cloud API",
+  "main": "server.js",
+  "author": "Eng. MHD. Shadi AL-Hasan <mhd.shadi.alhasan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
