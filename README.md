@@ -1,5 +1,8 @@
 # 💬 whatsapp-flow-router
 
+> **Topics:** `whatsapp-cloud-api` `chatbot` `state-machine` `conversational-ai` `lead-qualification` `meta-api`
+
+
 [![Release](https://img.shields.io/badge/Release-v1.0.0-blue.svg)](https://github.com/MobileConduit/whatsapp-flow-router/releases/tag/v1.0.0)
 [![CI/CD Pipeline](https://github.com/MobileConduit/whatsapp-flow-router/actions/workflows/ci.yml/badge.svg)](https://github.com/MobileConduit/whatsapp-flow-router/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
