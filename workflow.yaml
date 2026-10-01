@@ -1,0 +1,38 @@
+# Enterprise Conversational Flow Definition
+name: "Enterprise WhatsApp Flow Router"
+version: "1.0.0"
+initial_state: INIT
+states:
+  INIT:
+    reply: "Welcome to Enterprise Solutions! Reply 1 for Sales, 2 for Tech Support."
+    transitions:
+      "1": SALES_MENU
+      "2": TECH_SUPPORT
+      default: MAIN_MENU
+  MAIN_MENU:
+    reply: "Main Menu: Reply 1 for Sales, 2 for Tech Support, 0 to restart."
+    transitions:
+      "1": SALES_MENU
+      "2": TECH_SUPPORT
+      "0": INIT
+      default: MAIN_MENU
+  SALES_MENU:
+    reply: "Connecting you with our Enterprise Solutions Team. Please provide your company name and requirements."
+    transitions:
+      "0": MAIN_MENU
+      default: AWAITING_LEAD_INFO
+  TECH_SUPPORT:
+    reply: "Support desk ticket initialized. Please state your ticket number or describe the issue."
+    transitions:
+      "0": MAIN_MENU
+      default: SUPPORT_RESOLVED
+  AWAITING_LEAD_INFO:
+    reply: "Thank you for the information! Our solutions architect will contact you within 24 hours. Reply 0 for main menu."
+    transitions:
+      "0": MAIN_MENU
+      default: INIT
+  SUPPORT_RESOLVED:
+    reply: "Your request has been logged with Priority 1. An on-call engineer has been notified. Reply 0 to return to main menu."
+    transitions:
+      "0": MAIN_MENU
+      default: INIT
